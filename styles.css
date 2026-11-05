@@ -452,6 +452,100 @@ a {
   color: var(--blue);
 }
 
+.trim {
+  padding: 84px 24px;
+  background: #1e3448 url("assets/Desktop_-_11.svg") center / cover no-repeat;
+}
+
+.trim-card {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  max-width: 476px;
+  margin: 0 auto;
+  padding: 42px;
+  background: #fff;
+  border-radius: 12px;
+}
+
+.trim-card input,
+.trim-card select {
+  width: 100%;
+  height: 48px;
+  padding: 0 24px;
+  border: 1px solid #3284ff;
+  border-radius: 12px;
+  background: #fff;
+  color: #3284ff;
+  font: 500 12px var(--body-font);
+}
+
+.trim-card input[type="url"] {
+  height: 55px;
+}
+
+.trim-card ::placeholder {
+  color: #3284ff;
+  opacity: 1;
+}
+
+.trim-card input:focus,
+.trim-card select:focus {
+  outline: 2px solid #4991ff;
+  outline-offset: 2px;
+}
+
+.trim-row {
+  display: flex;
+  gap: 12px;
+}
+
+.trim-row select {
+  flex: 0 0 202px;
+  width: 202px;
+  padding: 0 20px;
+  appearance: none;
+  background: #fff url("assets/chevron-down.svg") no-repeat right 20px center;
+  font-size: 14px;
+}
+
+.trim-action {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.trim-action button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  height: 48px;
+  border: 0;
+  border-radius: 100px;
+  background: var(--blue-dark);
+  color: #fff;
+  font: 600 14px var(--body-font);
+  cursor: pointer;
+}
+
+.trim-action p {
+  margin: 0;
+  padding: 10px;
+  color: #4991ff;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.trim-action a {
+  color: #3284ff;
+  font-weight: 700;
+}
+
+.trim-action span {
+  color: #3284ff;
+}
+
 @media (max-width: 1300px) {
   .stats {
     gap: 48px;
@@ -665,6 +759,23 @@ a {
 
   .pricing {
     padding-bottom: 72px;
+  }
+
+  .trim {
+    padding: 56px 16px;
+  }
+
+  .trim-card {
+    padding: 28px 20px;
+  }
+
+  .trim-row {
+    flex-direction: column;
+  }
+
+  .trim-row select {
+    flex: none;
+    width: 100%;
   }
 
   .pricing-buttons {

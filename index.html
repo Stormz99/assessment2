@@ -212,5 +212,41 @@
         <a href="#" class="btn btn-big">Select Pricing</a>
       </div>
     </section>
+
+    <section class="trim">
+      <form class="trim-card">
+        <input
+          type="url"
+          name="url"
+          placeholder="Paste URL here..."
+          aria-label="URL to shorten"
+        />
+
+        <div class="trim-row">
+          <select name="domain" aria-label="Domain">
+            <option value="" selected disabled>Choose Domain</option>
+            <option value="scissor.link">scissor.link</option>
+          </select>
+          <input
+            type="text"
+            name="alias"
+            placeholder="Type Alias here"
+            aria-label="Alias"
+          />
+        </div>
+
+        <div class="trim-action">
+          <button type="submit">
+            Trim URL
+            <img src="assets/magic-wand.svg" alt="" width="16" height="16" />
+          </button>
+          <p>
+            By clicking TrimURL, I agree to the
+            <a href="#">Terms of Service, Privacy Policy</a>
+            <span>and Use of Cookies.</span>
+          </p>
+        </div>
+      </form>
+    </section>
   </body>
 </html>
