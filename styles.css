@@ -608,6 +608,26 @@ a {
   line-height: 32px;
 }
 
+.cta {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+  padding: 109px 24px 53px;
+  background: var(--navy) url("assets/Desktop_-_11.svg") center / cover
+    no-repeat;
+  color: #fff;
+  text-align: center;
+}
+
+.cta h2 {
+  line-height: 57px;
+}
+
+.cta .btn {
+  background: var(--blue-dark);
+}
+
 @media (max-width: 1300px) {
   .stats {
     gap: 48px;
@@ -845,5 +865,13 @@ a {
 
   .faq-list details p {
     line-height: 28px;
+  }
+
+  .cta {
+    padding: 72px 24px 56px;
+  }
+
+  .cta h2 {
+    line-height: 38px;
   }
 }
