@@ -9,7 +9,7 @@ A responsive landing page for a URL shortening and QR code service.
 
 <br><br>
 
-<a href="https://stormz99.github.io/assessment2/"><img src="assets/preview-scissor.png" alt="Scissor landing page on desktop and mobile" width="100%"></a>
+<a href="https://stormz99.github.io/assessment2/"><img src="assets/preview.png" alt="Scissor landing page on desktop and mobile" width="100%"></a>
 
 </div>
 
